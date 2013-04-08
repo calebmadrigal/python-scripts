@@ -1,4 +1,8 @@
 # This is a simple demo of how to calculate and verify bitcoin hash algorithm
+#
+# To understand the bitcoin hash system, read this code in conjunction with this:
+# https://en.bitcoin.it/wiki/Block_hashing_algorithm
+
 import hashlib
 
 def result_hash(attempt_hex):
