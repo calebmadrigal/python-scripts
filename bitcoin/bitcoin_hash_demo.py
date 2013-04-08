@@ -1,4 +1,4 @@
-# This is a simple demo of how to calculate and verify bitcoin hash algorithm
+# This is a simple demo of how to calculate and verify bitcoin hashes.
 #
 # To understand the bitcoin hash system, read this code in conjunction with this:
 # https://en.bitcoin.it/wiki/Block_hashing_algorithm
