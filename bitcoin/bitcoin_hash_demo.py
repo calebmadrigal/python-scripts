@@ -14,10 +14,14 @@ def is_correct(attempt_hash, num_zeros=2):
    return attempt_hash[0:num_zeros] == '0'*num_zeros
 
 if __name__ == "__main__":
-   previous_block = "deadbeef" # This is hex
+   # For simplicity, assume that this variable (previous_block) is the data for the
+   # previous block header.  Note that "deadbeef" is a valid hexadecimal number.
+   previous_block = "deadbeef"
    num_zeros = 3
    attempts = 10000
 
+   # Increment the nonce until the hash comes out with the number of zeros on the left side
+   # as defined by the 'num_zeros' variable.  When this happens, the hash found is considered correct.
    for nonce in xrange(attempts):
       nonce_hex = zero_padded_hex(nonce)
       next_block_attempt = previous_block + nonce_hex
