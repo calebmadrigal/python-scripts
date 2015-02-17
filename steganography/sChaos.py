@@ -1,5 +1,7 @@
 #!/usr/bin/python
 #
+# Written: 2003
+#
 # sChaos 1.2 is a steganography reader/writer written by Caleb Madrigal
 # Use sChaos to hide any type of file inside of a 24-bit bitmap file
 #
